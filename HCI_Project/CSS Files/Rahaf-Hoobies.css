@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.Game{
+    background-image: url('../images/retro-gaming-02.png');
+}
+
+.title_header {
+    background-color: #6a1f74; 
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Arial Black', sans-serif; 
+    margin: 1%;
+}
+
+.description {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: black;
+}
+
+
+.containerrh .main-content h2{
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.containerrh .main-content .ds-title{
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    color: rgb(64, 15, 64);
+    margin-bottom: 20px;
+    width: 300px; 
+    height: 60px; 
+    background-color: #f8f8f8; 
+    padding: 10px;
+    text-align: center; 
+    line-height: 30px; 
+    border: 2px solid rgb(64, 15, 64); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.containerrh .main-content .GB-title{
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    color: rgb(64, 15, 64);
+    margin-bottom: 20px;
+    width: 350px; 
+    height: 80px; 
+    background-color: #f8f8f8; 
+    padding: 10px;
+    text-align: center; 
+    line-height: 30px; 
+    border: 2px solid rgb(64, 15, 64); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.containerrh .main-content .wii-title{
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    color: rgb(64, 15, 64);
+    margin-bottom: 20px;
+    width: 300px; 
+    height: 50px; 
+    background-color: #f8f8f8; 
+    padding: 10px;
+    text-align: center; 
+    line-height: 30px; 
+    border: 2px solid rgb(64, 15, 64); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+
+.containerrh {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles for the game cards */
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-card {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.game-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.game-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.game-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Footer styles */
+.main-page {
+    background-color: #6a1f74;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+    background-color:rgb(64, 15, 64);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+}
+

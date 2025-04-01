@@ -1,0 +1,71 @@
+.header_text{
+    font-size: 55px;
+    font-family: 'Poppins',sans-serif;
+    /* padding-left: 25px; */
+    color: white;
+}    
+.header_text h1 span{
+    color: #ffb864;
+}
+.eye_catch{
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-style: normal;
+    font-size: 70px; 
+    text-align: center;
+}
+body{
+    background-color: rgb(255, 255, 250);
+    color: black;
+}
+.body_text{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16pt;
+	color: black;
+}
+h2{
+    font-family: 'Press Start 2P', cursive;
+    color: #6a1f74;
+    text-align: left;
+    font-size: 60px;
+    font-style: italic;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+a{
+    color: #6a1f74;
+}
+.bullets_list{
+    color: white;
+
+}
+.title{
+    color: #6a1f74;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgb(255, 255, 250);
+}
+.body_main{
+    color: black;
+    font-size: 20px;
+    padding: 60px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+.hobby{
+    color: black;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.CV_Viewer{
+    width: 80%;
+    height: 80%;
+    padding-bottom: 50px;
+}
+.contact_form{
+    width: 50%;
+}
+.contact_form2{
+    width: 100%;
+}

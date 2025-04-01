@@ -1,0 +1,197 @@
+/*-----------------------------------*\
+    #ABOUT
+  \*-----------------------------------*/
+  
+  .w-100 { width: 100%; }
+  
+  .container4 {
+    
+    padding-inline: 16px;
+    width: 100%;
+    left: 0;
+    width: 500px; 
+    height: 600px;
+     }
+
+  .text-center1 { 
+    left: 0;
+    text-align: center; }
+  .about1 .section-text1 { 
+    left: 0;
+    margin-block: 20px 40px; 
+    font-size: 15px;
+    line-height: 1.9; /* Adjust line height for space between lines */
+    
+  }
+  .about1 .btn1 {
+    margin-inline:auto;
+    margin-block-start: 20px;
+  }
+  
+  .about1 .container4 {
+    display: grid;
+    gap: 200px;
+  }
+  
+  .about-banner1 {
+    position:absolute;
+    width:540px;
+    right:80px;
+    margin-block-end: 120px;
+  }
+  
+  .about-banner1 > .w-100 { padding-inline-start: 0; }
+  
+  .about1 .abs-img1 { position: absolute; }
+  
+  .about1 .abs-img1::before { z-index: -1; }
+  
+  .about1 .abs-img-cok {
+    bottom: -120px;
+    left: -50px;
+    width: 200px;
+    padding-block: 50px;
+  }
+  
+  .about1 .abs-img-cook {
+    top: -65px;
+    right: -50px;
+    overflow: hidden;
+  }
+  
+  .about1 .abs-img-cok::before {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    background-image: url("../images/Skills/bank-security.gif");
+    background-repeat: repeat;
+  }
+  
+  .about1 .abs-img-cook::before {
+    inset: 0;
+    background-image: url("../images/Skills/AI_Successeful.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: rotate360 15s linear infinite;
+  }
+  
+
+
+
+
+
+  
+  .headline-1-cook {
+    font-size: 54px;
+    color: wheat;
+    font-weight: var(--weight-extraBold);
+  }
+  
+ 
+  
+  .section-title1 { margin-block-end:23px; }
+  
+  
+  .btn1 {
+    background-image: var(--gradient-2);
+    background-size: 200%;
+    background-position: left;
+    color: var(--white);
+    font-size: var(--fontSize-6);
+    font-weight: var(--weight-bold);
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    transition: var(--transition-1);
+  }
+  
+  .btn1:is(:hover, :focus-visible) { background-position: right; }
+  
+  .btn-primary1 {
+    padding: 8px 16px;
+    border-radius: var(--radius-6);
+  }
+
+  .section-subtitle1 {
+    position: relative;
+    color: var(--gold-crayola);
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-block-end: 5px;
+  }
+  
+  .section-subtitle1::after {
+    content: url('../images/separator.svg');
+    display: block;
+    width: 100px;
+    margin-inline: auto;
+    margin-block-start: 5px;
+  }
+  
+  .btn1 {
+    position: relative;
+    color: var(--gold-crayola);
+    font-size: var(--fontSize-label-2);
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: var(--letterSpacing-5);
+    max-width: max-content;
+    border: 2px solid var(--gold-crayola);
+    padding: 12px 45px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .btn1::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200%;
+    height: 200%;
+    border-radius: var(--radius-circle);
+    background-color: var(--gold-crayola);
+    transition: var(--transition-2);
+    z-index: -1;
+  }
+  
+  .btn1 .text1 { 
+    transition: var(--transition-1); }
+  
+  .btn1 .text-2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: max-content;
+    color: var(--smoky-black-1);
+  }
+  
+  .btn1:is(:hover, :focus-visible)::before { bottom: -50%; }
+  
+  .btn1:is(:hover, :focus-visible) .text-1 { transform: translateY(-40px); }
+  
+  .btn1:is(:hover, :focus-visible) .text-2 {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+
+  @keyframes rotate360 {
+    0% { transform: rotate(0); }
+    100% { transform: rotate(1turn); }
+  }
+
+
+
+
+ 
+  
+  

@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-color: #6a1f74;
+
+}
+
+
+/* Joud Header /*
+
+/* Image*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+  background-color: #6a1f74 ;
+}
+
+
+.logo1 img {
+  height: 50px;
+  width: auto;
+}
+.container{
+  padding: 10px 10%;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo1{
+  width: 140px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+  width: 100%;
+}
+
+/*My Header */
+
+
+header {
+    /* background-color: rgb(252, 225, 255); */
+    background-color: white;
+    width: 100%;
+    /* position: fixed; */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+   
+}
+ 
+
+
+.logo {
+    text-decoration: none;
+    color: #6a1f74;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #6a1f74;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+
+.navigation a:hover{
+    color: rgb(251,187,99)
+}
+
+
+
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/purple-background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+h1,h2{
+    margin-right: 400px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+
+
+.main h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+
+
+footer{
+    background-color: rgb(103, 29, 132);
+    color:white;
+    padding: 1px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-title{
+    font-size: 1em;
+    font-weight: 600;
+    padding: 15px;
+    
+}
+   
+
+.footer-title span{
+    color: white;
+    font-size: 1.1em;
+}
+
+.footer .social-icons{
+    padding-top: 10px;
+}
+
+
+@media(max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size:1.8em;
+ 
+    }
+    section{
+        padding: 80px 20px ;
+    }
+    
+    .main-content h1{
+        font-size: 2em;
+    }
+
+    .main-content h2{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
